@@ -10,9 +10,9 @@ body {
 /* <uniquifier>: Use a unique and descriptive class name
    <weight>: Use a value from 400 to 900 */
 
-.playfair-display-<dunno> {
+.playfair-display-dunno {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
