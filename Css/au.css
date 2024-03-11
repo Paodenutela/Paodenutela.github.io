@@ -6,7 +6,19 @@ body {
     color: rgb(0, 0, 0);
     text-align: left;
   }
-  
+
+  /* #block_container {
+    display: flex;
+    justify-content: center;
+    white-space: 100px;
+  } */
+
+  div {
+    height: 15%;
+    width: 15%;
+    background-color: powderblue;
+    text-align: center;
+  }
 /* <uniquifier>: Use a unique and descriptive class name
    <weight>: Use a value from 400 to 900 */
 
