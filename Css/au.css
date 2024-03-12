@@ -1,21 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
     background-color: cornsilk;
+    padding-left: 50px;
   }
   
-  h1 {
-    color: rgb(0, 0, 0);
-    text-align: left;
+  button{
+    background-color:rgb(188, 234, 234);
+    border: 0px;
   }
 
-  /* #block_container {
+  button a{
+    text-decoration: none;
+    color: black;
+  }
+  .parent{
     display: flex;
-    justify-content: center;
-    white-space: 100px;
-  } */
+    justify-content: space-around;
+  }
+
+  .child{
+    width: 55%;
+    height: 55%;
+    margin: 10px;
+  }
+
+  .child h3{
+    text-decoration: none;
+    font-size: normal;
+    height: 55%;
+    margin: 10px;
+  }
 
   div {
-    height: 15%;
-    width: 15%;
+    max-height: 25%;
+    min-height: 20%;
+    max-width: 25%;
+    min-width: none;
     background-color: powderblue;
     text-align: center;
   }

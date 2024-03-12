@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Maria Oliveira">
     <title>Trabalhos</title>
     <link rel="stylesheet" href="css/au.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,53 +23,58 @@
             de páginas principais dentro do website -->
 
         <nav>
+                <button>
                 <a href="index.html" target="_self"> Página Inicial </a>
+                </button>
+                <button>
                 <a href="about.html" target="_self"> Acerca </a>
+                </button>
+                <button>
                 <a href="work.html" target="_self"> Trabalhos </a>
+                </button>
+                <button>
                 <a href="contact.html" target="_self"> Contactos </a>
+                </button>
+                
         </nav>
     </header>
     <hr>
 
     <!-- O main está a ser usada para representar quais informações
         são as principais-->
-
+    <section>
     <main>
         <p>
             Os meows trabalhos feitos pelas meowas próprias patinhas
         </p>
-        <!-- <div id="block_container"> -->
-        <div id="block1">
+        <div class="parent">
+            <div class="child">
             <a href="typeprojects/projchunkycat/project1.html" target="_self">
                 <article>
-                    <figure>
-                        <figcaption>
-                            <h3> Projetos Chunky Cat</h3>
-                        </figcaption>
-                        <img src="typeprojects/projchunkycat/Images/chunky.jpeg" alt="Imagem do projeto" height="70%" width="100%"/>
-                    </figure>
+                    <figcaption>
+                        <h3> Projetos Chunky Cat</h3>
+                    </figcaption>
+                    <img src="typeprojects/projchunkycat/Images/chunky.jpeg" alt="Imagem do projeto" height="70%" width="100%"/>
                 </article>
             </a>
             <footer>
                 aaa
             </footer>
-        </div>
-        <div id="block2">
+            </div>
+            <div class="child">
             <a href="typeprojects/proj3d/project2.html" tagert="_self">
                 <article>
-                    <figure>
                         <figcaption>
                             <h3> Projetos 3D </h3>
                         </figcaption>
                         <img src="typeprojects/proj3d/Images/bixo.jpg" alt="Imagem do projeto 2" height="70%" width="100%"/>
-                    </figure>
                 </article>
-            </a>
-            <footer>
-                aaa
-            </footer>
+                </a>
+                <footer>
+                    aaa
+                </footer>
+            </div>
         </div>
-        <!-- </div> -->
     </main>
 
     <!-- O footer está a ser usado para representar quais informações
